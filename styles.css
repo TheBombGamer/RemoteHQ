@@ -1,0 +1,211 @@
+body {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+  color: #ffffff;
+}
+.indent{
+  text-indent: 350px; /* indent the first line of text by 20 pixels */
+}
+.nav {
+  background-color: #8c8c8c00; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+a {
+  color: #ffffff;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: none;
+  max-height: 100px;
+  object-fit: contain;
+}
+.no-scale1 {/*424KP*/
+  max-width: max-content;
+  max-height: max-content;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+.no-scale2 {
+  max-width: 2100px;
+  max-height: none;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.no-style {
+  max-width: 2100px;
+}
+.floating-box {
+  float: right; /* or float: right; */
+  width: 200px; /* set a width for the box */
+  height: 100px; /* set a height for the box */
+  background-color: #ffffff; /* add a background color */
+  border: 1px solid #ddd; /* add a border */
+  padding: 10px; /* add some padding */
+}
+.absolute-box {
+  position: absolute;
+  top: 1000px; /* set the top position */
+  left: 200px; /* set the left position */
+  width: 700px; /* set a width for the box */
+  height: 400px; /* set a height for the box */
+  background-color: #f0f0f0; /* add a background color */
+  border: 1px solid #ddd; /* add a border */
+  padding: 10px; /* add some padding */
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+.button1 {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: darkblue;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  width: 700px; /* set a width for the box */
+  height: 900px; /* set a height for the box */
+  background-color: #303030; /* add a background color */
+  border: 2px solid #ddd; /* add a border */
+  padding: 10px; /* add some padding */
+  border-radius: 10px; /* round the corners */
+  color: #ffffff;
+  z-index: -1;
+  .middle1 {
+    z-index: 0;
+  }
+}
+#loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#loading-text {
+      font-size: 24px;
+      font-weight: bold;
+}
+.dot {
+      font-size: 18px;
+      margin: 0 5px;
+      animation: blink 1s infinite;
+}
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+}
+    form {
+      max-width: 300px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      width: 100%;
+      height: 40px;
+      background-color: #008a92;
+      color: #ffffff;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #008a92;
+    }
+/* Style the sidebar container */
+.sidebar {
+  width: 300px; /* Set the width of the sidebar */
+  height: 100vh; /* Set the height of the sidebar to full screen */
+  background-color: #363636; /* Set the background color of the sidebar */
+  padding: 20px; /* Add some padding to the sidebar */
+  position: fixed; /* Fix the sidebar to the left side of the screen */
+  top: 0; /* Set the top position of the sidebar to 0 */
+  left: 0; /* Set the left position of the sidebar to 0 */
+}
+
+/* Style the links in the sidebar */
+.sidebar ul {
+  list-style: none; /* Remove the bullet points from the list */
+  margin: 0; /* Remove the margin from the list */
+  padding: 0; /* Remove the padding from the list */
+}
+
+.sidebar li {
+  margin-bottom: 75px; /* Add some space between each link */
+}
+
+.sidebar a {
+  text-decoration: none; /* Remove the underline from the links */
+  color: #ffffff; /* Set the text color of the links */
+  font-size: xx-large;
+}
+
+.sidebar a:hover {
+  background-color: #303030; /* Set the background color of the links on hover */
+  color: #ffffff; /* Set the text color of the links on hover */
+} 
+.absolute-rounded-box { /*The one currently being used*/
+  position: absolute;
+  top: 50px; /* set the top position */
+  left: 375px; /* set the left position */
+  width: 800px; /* set a width for the box */
+  height: 1000px; /* set a height for the box */
+  background-color: #303030; /* add a background color */
+  border: 1px solid #ddd; /* add a border */
+  padding: 10px; /* add some padding */
+  border-radius: 10px; /* round the corners */
+  color: #ffffff;
+.box1 {
+  position: absolute;
+  top: 75px; /* set the top position */
+  left: 375px; /* set the left position */
+  width: 700px; /* set a width for the box */
+  height: 400px; /* set a height for the box */
+}
+}
